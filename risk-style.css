@@ -1,0 +1,9 @@
+/* Full ALIRIM name and risk illustration. */
+header .brand{min-height:62px;align-items:flex-start;padding-top:1px;min-width:240px}
+header .brand-small{top:36px;left:45px;font-size:8px;line-height:1.5;letter-spacing:.3px;white-space:normal;text-transform:none;font-weight:500}
+.risk-section{background:#f7faf7;border-block:1px solid #dce5df}
+.risk-figure{margin:0;background:white;border:1px solid #dce5df;border-radius:12px;overflow:hidden}
+.risk-figure img{width:100%;height:auto;display:block}
+.risk-figure figcaption{padding:12px 24px 20px;font-size:11px;color:#65776d}
+@media(max-width:900px){header .brand{min-width:215px}nav{gap:12px}}
+@media(max-width:650px){header .brand{min-height:56px;min-width:220px}header .brand-small{top:32px;font-size:8px}.risk-figure{overflow-x:auto}.risk-figure img{min-width:600px}.risk-figure figcaption{min-width:280px}}
