@@ -13,3 +13,8 @@
 .consent input{flex:none;margin-top:4px;width:17px;height:17px;accent-color:var(--green)}
 .consent a,.form-note a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:600px){.pilot-page{padding:38px 20px 60px}.pilot-page h1{font-size:36px}.pilot-form{padding:22px 18px}.form-grid{grid-template-columns:1fr}header .brand{font-size:21px}header .text-link{font-size:11px}}
+
+/* Match the main website's black theme. */
+.field input,.field textarea{background:#070b08;border-color:#526b5b;color:var(--ink)}
+.field input:focus,.field textarea:focus{outline:2px solid var(--green);outline-offset:2px}
+.field input::placeholder,.field textarea::placeholder{color:#92a498}
