@@ -30,3 +30,15 @@ header{background:#050706f2}
 :focus-visible{outline-color:#f4c46a}
 ::selection{background:#6ee7ac;color:#062016}
 @media(max-width:650px){nav{background:#0d120f}}
+
+/* TEAM — three responsive profile cards. */
+.team-section{border-top:1px solid var(--line)}
+.team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:36px}
+.team-card{display:flex;flex-direction:column;align-items:flex-start;background:#0d120f;border:1px solid var(--line);border-radius:12px;padding:30px}
+.team-initials{display:grid;place-items:center;width:60px;height:60px;background:var(--mint);color:var(--green);border:1px solid #345b43;border-radius:50%;font-family:Manrope,Arial,sans-serif;font-weight:700;margin-bottom:12px}
+.team-card h3{margin:12px 0}
+.team-card p{color:var(--muted);font-size:14px;margin:0 0 18px}
+.team-card .team-role{color:var(--green);font-weight:600}
+.team-profile{margin-top:auto;color:var(--ink);font-size:13px;text-decoration:underline;text-underline-offset:4px}
+@media(min-width:651px) and (max-width:1100px){header{padding-inline:3%;gap:15px}nav{gap:12px;font-size:12px}nav .button.small{padding:10px}}
+@media(max-width:800px){.team-grid{grid-template-columns:1fr}.team-card{padding:25px}}
