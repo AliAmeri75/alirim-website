@@ -42,3 +42,21 @@ header{background:#050706f2}
 .team-profile{margin-top:auto;color:var(--ink);font-size:13px;text-decoration:underline;text-underline-offset:4px}
 @media(min-width:651px) and (max-width:1100px){header{padding-inline:3%;gap:15px}nav{gap:12px;font-size:12px}nav .button.small{padding:10px}}
 @media(max-width:800px){.team-grid{grid-template-columns:1fr}.team-card{padding:25px}}
+
+/* VALIDATION — publication cards and source links. */
+.validation-section{background:var(--paper);border-top:1px solid var(--line)}
+.validation-note{color:var(--muted);font-size:13px;max-width:850px;margin-bottom:30px}
+.publication-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.publication-card{display:flex;flex-direction:column;align-items:flex-start;border:1px solid var(--line);border-radius:10px;background:#0a100c;padding:28px}
+.publication-featured{grid-column:1/-1;border-color:#42694e;background:#102017}
+.publication-type{font-size:10px;font-weight:700;letter-spacing:1.4px;color:var(--green)}
+.publication-card h3{font-size:20px;line-height:1.4;margin:15px 0}
+.publication-card p{color:var(--muted);font-size:13px;margin:0 0 12px}
+.publication-card .publication-venue{font-size:12px}
+.publication-card a{font-size:13px;color:var(--green);text-decoration:underline;text-underline-offset:4px;margin-top:auto;padding-top:12px}
+.research-in-progress{margin-top:25px;padding:20px 24px;border:1px solid var(--line);border-radius:8px;color:var(--muted);font-size:13px}
+.research-in-progress summary{color:var(--ink);cursor:pointer;font-weight:600}
+.research-in-progress li{margin-block:12px}
+@media(min-width:651px) and (max-width:1200px){header{padding-inline:3%;gap:15px}header .brand{min-width:220px}nav{gap:11px;font-size:12px}nav .button.small{padding:10px}}
+@media(max-width:1050px){header .menu{display:block;border:1px solid var(--line);background:#101613;color:var(--ink);border-radius:4px;font-size:12px;padding:8px 12px}header nav{display:none;position:absolute;top:92px;left:0;right:0;background:#0d120f;border-bottom:1px solid var(--line);padding:25px 6%;flex-direction:column;align-items:stretch}header nav.open{display:flex}}
+@media(max-width:650px){header nav{top:76px}.publication-grid{grid-template-columns:1fr}.publication-card{padding:23px}.publication-card h3{font-size:18px}}
